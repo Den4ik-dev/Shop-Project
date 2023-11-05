@@ -1,0 +1,42 @@
+.form {
+  width: 560px;
+  padding: 30px 30px;
+  box-shadow: 0 0 10px rgb(177, 169, 169);
+  border-radius: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.form__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.row:last-child {
+  margin: 0;
+}
+
+.row div {
+  flex: 50%;
+}
+
+.row div div {
+  margin-bottom: 2px;
+}
+
+.row > div:first-child {
+  margin: 0 20px 0 0;
+}
+
+.row input[type='date'] {
+  width: 100%;
+  max-width: 235px;
+}

@@ -1,0 +1,33 @@
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 15px 0 20px 0;
+}
+.productInfo {
+  padding: 0 0 0 30px;
+  width: 40%;
+}
+.productInfoPriceBlock {
+  max-width: 340px;
+  padding: 20px;
+  box-shadow: 1px 1px 10px #9e9e9e;
+  user-select: none;
+  margin: 0 0 0 auto;
+  border-radius: 5px;
+}
+.price {
+  padding: 10px 20px;
+  margin: 0 0 20px 0;
+}
+.body {
+  display: flex;
+  padding-bottom: 100px;
+}
+.productDescription {
+  max-width: 340px;
+  padding: 20px;
+  margin: 20px 0 0 auto;
+}
+.productDescriptionValue {
+  font-weight: 700;
+}

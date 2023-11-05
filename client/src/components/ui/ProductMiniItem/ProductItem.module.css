@@ -1,0 +1,41 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  flex: 30%;
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  min-height: 280px;
+  max-width: 393px;
+  min-width: 260px;
+}
+@media screen and (max-width: 619px) {
+  .product {
+    max-width: none;
+  }
+}
+.price {
+  color: #0779eb;
+  font-size: 20px;
+}
+.title {
+  font-size: 16px;
+  margin: 3px 0 3px 0;
+}
+.description {
+  font-size: 15px;
+}
+.quantityProduct {
+  font-size: 15px;
+}
+.content {
+  padding: 10px 0;
+}
+.image {
+  max-height: 220px;
+}
+.product:hover {
+  color: #0779eb;
+}

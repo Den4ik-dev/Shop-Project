@@ -1,0 +1,19 @@
+.basket {
+  display: flex;
+  justify-content: space-between;
+}
+
+.basket__content {
+  flex-basis: 69%;
+}
+.basketCounterBlock {
+  width: 30%;
+}
+@media screen and (max-width: 1070px) {
+  .basket {
+    display: block;
+  }
+  .basketCounterBlock {
+    width: 100%;
+  }
+}
